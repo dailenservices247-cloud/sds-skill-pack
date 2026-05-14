@@ -42,7 +42,7 @@ Do NOT trigger on: internal docs, code comments, atomic-node frontmatter, sessio
 
 ### Banned characters
 - Em-dash (, ), use comma, colon, semicolon, period, or parens instead
-- Double-hyphen substitute (--), same rule
+- Double-hyphen substitute `--`, same rule
 
 ## Process
 
