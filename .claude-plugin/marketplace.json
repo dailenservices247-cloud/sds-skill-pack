@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sds-skill-pack",
+  "description": "Synapse Dynamics Segmented (SDS) Skill Pack v0 — twelve productized Claude Code skills for solo founders, multi-product builders, and operators-who-build. Free.",
+  "owner": {
+    "name": "Synapse Dynamics Segmented",
+    "email": "dailenhuntley@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "sds-skill-pack",
+      "description": "Twelve SDS-authored Claude Code skills covering session start, craft, ingest, milestone, and end-of-session discipline.",
+      "category": "productivity",
+      "source": "./plugins/sds-skill-pack",
+      "homepage": "https://github.com/dailenservices247-cloud/sds-skill-pack"
+    }
+  ]
+}

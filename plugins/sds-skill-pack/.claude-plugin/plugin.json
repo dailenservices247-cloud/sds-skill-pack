@@ -1,0 +1,11 @@
+{
+  "name": "sds-skill-pack",
+  "description": "Twelve productized Claude Code skills authored by Synapse Dynamics Segmented. Covers session start, craft, ingest, milestone, and end-of-session discipline for solo founders and multi-product builders.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Synapse Dynamics Segmented",
+    "email": "dailenhuntley@gmail.com"
+  },
+  "homepage": "https://github.com/dailenservices247-cloud/sds-skill-pack",
+  "license": "MIT"
+}
