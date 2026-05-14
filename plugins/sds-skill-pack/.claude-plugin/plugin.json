@@ -7,5 +7,6 @@
     "email": "dailenhuntley@gmail.com"
   },
   "homepage": "https://github.com/dailenservices247-cloud/sds-skill-pack",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": "./skills/"
 }
