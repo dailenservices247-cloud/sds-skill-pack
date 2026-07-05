@@ -40,11 +40,13 @@ Using the dissection as explicit instructions, generate the requested output. Th
 
 ## Canon library structure
 
-Canon sources live under `~/.claude/canon/<craft-area>/`:
-- `~/.claude/canon/copywriting/` for sales copy, ad creative, headlines
-- `~/.claude/canon/voice/` for brand voice anchors, taste profile
-- `~/.claude/canon/proposals/` for proposal templates and exemplars
-- `~/.claude/canon/contracts/` for contract review canon
+Canon sources live under `~/.claude/canon/<craft-area>/`. Live dirs (verified 2026-07-05): architecture, contractor, copywriting, dental, leadership, macro, ops, productivity, restaurant, strategy. Craft mapping:
+- `~/.claude/canon/copywriting/` for sales copy, ad creative, headlines, proposals
+- Brand voice / taste: NO canon dir — load `~/TAOO-Vault/AI Hub/Brand/dailen-taste-profile.md` + `AI Hub/Brand Voice/<channel>-voice.md` instead
+- Proposals exemplar: `~/TAOO-Vault/Synapse Dynamics/Clients/taqueria-otates-proposal.md`
+- Contract review: NO canon yet — say so and ask the user for source material
+
+**Canon guard:** verify the canon path exists and is non-empty BEFORE running the dissection prompt. If missing, STOP and tell the user which canon is absent — do NOT generate cold. Cold generation is the exact failure this skill exists to prevent.
 
 Each canon source is one `.md` file with the actual source text plus frontmatter (`author`, `year`, `register`, `notes`).
 

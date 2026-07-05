@@ -18,7 +18,9 @@ Trigger on any of:
 
 Do NOT trigger on: every session close (too aggressive), inactive vaults (nothing to consolidate).
 
-## The eight-step cycle
+> **AUTHORITY NOTE (added 2026-07-05):** when Dailen says "dream", the authoritative spec is the **10-step Dream Protocol in `~/.claude/CLAUDE.md`** — this skill is the working checklist for it, not a substitute. Two steps below (9, 10) were previously missing here; running an 8-step subset was the exact partial-consolidation failure banked in Lessons Learned 2026-05-22.
+
+## The ten-step cycle
 
 ### 1. Review recent activity
 Read recent handoff files, last 3-5 session logs, and the last week of relay entries. Build a mental model of what happened.
@@ -41,8 +43,14 @@ What workflows work? What keeps failing? What does the user keep asking for? Pat
 ### 7. Update indexes
 Refresh `Research Log.md`, `Decisions Log.md`, and any other rolling indexes so they accurately list current atomic nodes.
 
-### 8. Write the dream-cycle session log
-Log the dream cycle itself as a session entry. Records what was consolidated, what was promoted, what was archived.
+### 8. Update global operating docs if needed
+CLAUDE.md, `~/.claude/current-focus.md`, roadmap, and per-project handoffs (`~/.claude/handoffs/*.md`) — anything the consolidation revealed as stale. Also refresh the memory-directory `MEMORY.md`, `mempalace.yaml`, and `entities.json` indexes per the CLAUDE.md protocol.
+
+### 9. Write the dream-cycle session log
+Log the dream cycle itself as a session entry. Records what was consolidated, what was promoted, what was archived, and what was left open.
+
+### 10. Archive and reset the relay
+Copy the processed `~/.claude/relay.md` to a dated archive, then reset `relay.md` to its clean template. A relay that never resets stops being an activity feed and becomes a second vault.
 
 ## Goal
 
